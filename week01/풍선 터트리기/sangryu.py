@@ -1,5 +1,5 @@
 def solution(a):
-    left_min, right_min = max(a), max(a)
+    left_min, right_min = float("inf"), float("inf")
     result = [0] * len(a)
 
     for i in range(len(a)):
