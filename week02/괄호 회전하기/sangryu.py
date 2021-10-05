@@ -14,7 +14,7 @@ def helper(s):
                 return False
             elif letter == "}" and compare != "{":
                 return False
-            if letter == "]" and compare != "[":
+            elif letter == "]" and compare != "[":
                 return False
     return True
 
