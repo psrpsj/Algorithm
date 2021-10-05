@@ -1,4 +1,5 @@
 import numpy as np
+
 def solution(a, b):
     x = np.array(a)
     y = np.array(b)
